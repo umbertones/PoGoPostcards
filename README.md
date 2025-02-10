@@ -15,10 +15,12 @@ An export.php: here you can export your database as a KML-File to import them in
 # What you have to do
 All php-Scripts read username and password from a file called .ht_cred.php that you have to provide in the same directory.
 Format is php-Syntax:
+´´´php
 <?php
 $username="user";
 $password="pass";
 ?>
+´´´
 Enter here the credentials of the mysql-database-user that has the rights to access the table.
 
 The database name is defined in the variable $dbname, here it is "PoGoGifts". You have to prepare that table for example with phpmyadmin on your server.
